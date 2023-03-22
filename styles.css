@@ -1,0 +1,280 @@
+*{
+  margin: 0px;
+  
+}
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: white;
+    
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-color: black;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+}
+
+
+#logo{
+  display: flex;
+  justify-content: left;
+  
+
+  height: 50px;
+}
+
+nav {
+    display: flex   ;
+    justify-content: right;
+    align-items: center;
+    gap:30px ;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-right: 25px;
+    margin-top: 6px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Hover */
+.menu a{
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+  }
+
+  .menu a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .menu a:hover::after,
+  a:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+  }
+
+  /*HEADER SLUT */ 
+
+  /*MAIN*/ 
+
+  #forside{
+    
+  margin-top: 100px;
+  padding-top: 80px;
+  width: 700px;
+  height: 500;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-small;
+    font-weight: 600;
+    text-align: center;
+    
+    color: black;
+  }
+
+  h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+    text-align: center;
+   
+    color: black;
+  }
+
+  p{
+    font-weight: 200;
+  }
+
+  
+
+/* HUDTYPER FORSIDE */
+  .kolonner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
+  }
+
+  .kolonner > section{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  #hud{
+    width: 500px;
+  }
+
+  #tilstand{
+    width: 500px;
+  }
+/* HUDTYPER FORSIDE SLUT */
+
+/* INGREDIENSER FORSIDE */ 
+.kolonne{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.kolonne > section{
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+#hya{
+  width: 500px;
+}
+
+#cvit{
+  width: 500px;
+}
+
+#nia{
+  width: 500px;
+}
+
+#ret{
+  width: 500px;
+}
+/* INGREDIENSER FORSIDE SLUT */
+
+
+
+/* ALLE BILLEDER */ 
+  .billeder{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 150px;
+  }
+.skema img{
+  display: flex;
+  margin: auto;
+  width: 450px;
+}
+  /* ALT TEKST */ 
+  .tekst{
+    width: 500px;
+    border: 15px;
+    padding: 50px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    line-height: 1.5;
+    
+    
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+  }
+
+
+
+  /* TRENDS FORSIDE */
+  .tokolonner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
+  }
+
+  .tokolonner > section{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+  }
+
+  #cycling img{
+    width: 500px;
+  }
+
+  #slugging{
+    width: 500px;
+  }
+  /* TRENDS FORSIDE SLUT */ 
+
+
+  /* FOOTER */
+  footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 130px;
+    margin-bottom: 40px;
+
+    border-top: solid;
+    border-width: 0.5px;
+    border-color: black;
+
+
+  }
+  footer section{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    
+  }
+  h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    font-weight: 300;
+    margin-top: 25px;
+  }
+
+  /* FOOTER SLUT */ 
+
+  
+
+  
+
+  
+
+
+ 
+
+
+
